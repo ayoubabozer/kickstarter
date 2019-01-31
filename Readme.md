@@ -29,43 +29,37 @@ These instructions will get you a copy of the project up and running on your loc
  
     ```
      docker build -t <tag_name> .
-    ```
+     ```
     
-    don't forget the dot.
+     - don't forget the dot.
  
- 4. Create container from the docker image
+ 4. Run and create container from the docker image
  
      ```
-        docker create <tag_name>
+        docker run -dit <tag_name>
      ```
      
  5. List containers 
     ```
     docker ps -a
-    ``` 
-    
- 5. Start the container 
-    ```
-    docker start <container_ID>
-    ``` 
-  
+    ```   
  6. Run the app in the container
  
       ```
       docker exec -it <container_ID> python app.py
       ```
      
-     -it : to make sure that it runs in interactive mode with the terminal attached.
+     - -it : to make sure that it runs in interactive mode with the terminal attached.
 
      - The program will ask you some question, and will predict if you are a Man or a Woman.     
-     - The will output tree.png file in the docker container.
+     - The program will output tree.png file in the docker container.
  
- 6. Copy tree algorithm image from container to your host
+ 7. Copy tree algorithm image from container to your host
     
     ```
     docker cp <CONTAINER_ID>:/app/tree.png .
     ```
     
-    don't forget the dot again.
+    - don't forget the dot again.
 
 # ENJOY!.
