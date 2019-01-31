@@ -28,8 +28,10 @@ These instructions will get you a copy of the project up and running on your loc
  3. Build Docker
  
     ```
-     docker build -t <tag_name>
+     docker build -t <tag_name> .
     ```
+    
+    don't forget the dot.
  
  4. Run
  
