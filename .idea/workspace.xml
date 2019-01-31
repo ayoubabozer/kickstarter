@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="783ca7ac-d1e4-4bb5-a3af-9de16c368219" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tree/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +24,9 @@
           <entry key="Dockerfile" value="1" />
           <entry key="csv" value="4" />
           <entry key="dot" value="2" />
+          <entry key="gitignore" value="1" />
           <entry key="md" value="1" />
+          <entry key="php" value="1" />
           <entry key="png" value="2" />
           <entry key="py" value="2" />
           <entry key="txt" value="3" />
@@ -35,14 +37,17 @@
           <entry key="Dockerfile" value="1" />
           <entry key="Image" value="2" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="PHP" value="1" />
+          <entry key="PLAIN_TEXT" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Dockerfile" value="4" />
           <entry key="csv" value="165" />
+          <entry key="gitignore" value="1" />
           <entry key="md" value="487" />
+          <entry key="php" value="1" />
           <entry key="py" value="749" />
           <entry key="txt" value="11" />
         </counts>
@@ -51,14 +56,15 @@
         <counts>
           <entry key="Dockerfile" value="4" />
           <entry key="Markdown" value="487" />
-          <entry key="PLAIN_TEXT" value="925" />
+          <entry key="PHP" value="1" />
+          <entry key="PLAIN_TEXT" value="926" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -66,6 +72,15 @@
                 <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tree/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -117,8 +132,8 @@
       <find>pydotplus</find>
       <find>dot</find>
       <find>graph</find>
-      <find>vis</find>
       <find>tree.</find>
+      <find>vis</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -132,6 +147,8 @@
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/Readme.md" />
+        <option value="$PROJECT_DIR$/tree/.gitignore.php" />
+        <option value="$PROJECT_DIR$/tree/.gitignore" />
       </list>
     </option>
   </component>
@@ -200,12 +217,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548857553828</updated>
-      <workItem from="1548857554921" duration="11719000" />
+      <workItem from="1548857554921" duration="12272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11719000" />
+    <option name="totallyTimeSpent" value="12272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1987" y="25" width="1853" height="1055" extended-state="6" />
@@ -277,6 +294,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tree/.gitignore.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -285,6 +309,13 @@
             <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
         </state>
       </provider>
     </entry>
