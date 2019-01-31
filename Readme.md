@@ -40,8 +40,10 @@ These instructions will get you a copy of the project up and running on your loc
  5. Run
  
      ```
-        docker run <tag_name>
+        docker run -ti <tag_name>
      ```
+     
+     -ti : to make sure that it runs in interactive mode with the terminal attached.
     
 
 

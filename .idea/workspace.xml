@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="783ca7ac-d1e4-4bb5-a3af-9de16c368219" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/tree/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+>>>>>>> 1af8cc8b72ea27264530d902a6aaf4ce8b0df3ff
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,9 +29,13 @@
           <entry key="Dockerfile" value="1" />
           <entry key="csv" value="4" />
           <entry key="dot" value="2" />
+<<<<<<< HEAD
           <entry key="gitignore" value="1" />
           <entry key="md" value="1" />
           <entry key="php" value="1" />
+=======
+          <entry key="md" value="1" />
+>>>>>>> 1af8cc8b72ea27264530d902a6aaf4ce8b0df3ff
           <entry key="png" value="2" />
           <entry key="py" value="2" />
           <entry key="txt" value="3" />
@@ -37,17 +46,25 @@
           <entry key="Dockerfile" value="1" />
           <entry key="Image" value="2" />
           <entry key="Markdown" value="1" />
+<<<<<<< HEAD
           <entry key="PHP" value="1" />
           <entry key="PLAIN_TEXT" value="12" />
+=======
+          <entry key="PLAIN_TEXT" value="11" />
+>>>>>>> 1af8cc8b72ea27264530d902a6aaf4ce8b0df3ff
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Dockerfile" value="4" />
           <entry key="csv" value="165" />
+<<<<<<< HEAD
           <entry key="gitignore" value="1" />
           <entry key="md" value="487" />
           <entry key="php" value="1" />
+=======
+          <entry key="md" value="487" />
+>>>>>>> 1af8cc8b72ea27264530d902a6aaf4ce8b0df3ff
           <entry key="py" value="749" />
           <entry key="txt" value="11" />
         </counts>
@@ -56,15 +73,23 @@
         <counts>
           <entry key="Dockerfile" value="4" />
           <entry key="Markdown" value="487" />
+<<<<<<< HEAD
           <entry key="PHP" value="1" />
           <entry key="PLAIN_TEXT" value="926" />
+=======
+          <entry key="PLAIN_TEXT" value="925" />
+>>>>>>> 1af8cc8b72ea27264530d902a6aaf4ce8b0df3ff
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
+=======
+      <file pinned="false" current-in-tab="true">
+>>>>>>> 1af8cc8b72ea27264530d902a6aaf4ce8b0df3ff
         <entry file="file://$PROJECT_DIR$/Readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -76,6 +101,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tree/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
@@ -85,6 +111,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> 1af8cc8b72ea27264530d902a6aaf4ce8b0df3ff
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -132,8 +160,13 @@
       <find>pydotplus</find>
       <find>dot</find>
       <find>graph</find>
+<<<<<<< HEAD
       <find>tree.</find>
       <find>vis</find>
+=======
+      <find>vis</find>
+      <find>tree.</find>
+>>>>>>> 1af8cc8b72ea27264530d902a6aaf4ce8b0df3ff
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -147,8 +180,11 @@
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/Readme.md" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/tree/.gitignore.php" />
         <option value="$PROJECT_DIR$/tree/.gitignore" />
+=======
+>>>>>>> 1af8cc8b72ea27264530d902a6aaf4ce8b0df3ff
       </list>
     </option>
   </component>
@@ -217,12 +253,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548857553828</updated>
+<<<<<<< HEAD
       <workItem from="1548857554921" duration="12272000" />
+=======
+      <workItem from="1548857554921" duration="11719000" />
+>>>>>>> 1af8cc8b72ea27264530d902a6aaf4ce8b0df3ff
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="12272000" />
+=======
+    <option name="totallyTimeSpent" value="11719000" />
+>>>>>>> 1af8cc8b72ea27264530d902a6aaf4ce8b0df3ff
   </component>
   <component name="ToolWindowManager">
     <frame x="1987" y="25" width="1853" height="1055" extended-state="6" />
@@ -294,6 +338,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/tree/.gitignore.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -301,6 +346,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 1af8cc8b72ea27264530d902a6aaf4ce8b0df3ff
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -312,6 +359,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/tree/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -319,5 +367,7 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 1af8cc8b72ea27264530d902a6aaf4ce8b0df3ff
   </component>
 </project>
