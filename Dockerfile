@@ -19,5 +19,7 @@ ADD . /app
 RUN pip install -r requirements.txt
 
 # Run app.py when the container launches
-# -u to run with unbuffered output
-CMD ["python", "-u", "app.py"]
+CMD ["python", "app.py"]
+
+# Copy from container to host
+COPY /app/tree.png .
