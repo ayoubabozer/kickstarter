@@ -40,6 +40,16 @@ These instructions will get you a copy of the project up and running on your loc
      ```
      
      -ti : to make sure that it runs in interactive mode with the terminal attached.
+     
+     the docker will output tree.png file in the docker container.
+     
+ 5. Run ```docker ps``` to see containers list.
+ 
+ 6. Copy tree algorithm image from container to your host
+    ```
+    docker cp <CONTAINER_ID>:/app/tree.png .
+    ```
+
     
 
 
