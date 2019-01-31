@@ -33,29 +33,34 @@ These instructions will get you a copy of the project up and running on your loc
     
     don't forget the dot.
  
- 4. Run
+ 4. Create container from the docker image
  
      ```
-        docker run -ti <tag_name>
+        docker create <tag_name>
      ```
      
-     -ti : to make sure that it runs in interactive mode with the terminal attached.
+ 5. List containers 
+    ```
+    docker ps
+    ``` 
+  
+ 6. Run the app in the container
+ 
+      ```
+      docker exec -it <container_ID> python app.py
+      ```
      
-     the docker will output tree.png file in the docker container.
-     
- 5. Run ```docker ps``` to see containers list.
+     -it : to make sure that it runs in interactive mode with the terminal attached.
+
+     - The program will ask you some question, and will predict if you are a Man or a Woman.     
+     - The will output tree.png file in the docker container.
  
  6. Copy tree algorithm image from container to your host
+    
     ```
     docker cp <CONTAINER_ID>:/app/tree.png .
     ```
-
     
-
-
-### Running and testing
-- The program will ask you some question, and will predict if you are a Man or a Woman.
-
-- The program will output the decision tree algorithm, in a file called `tree.png` in your directory.
+    don't forget the dot again.
 
 # ENJOY!.
