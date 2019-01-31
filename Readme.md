@@ -38,6 +38,8 @@ These instructions will get you a copy of the project up and running on your loc
      ```
         docker run -dit <tag_name>
      ```
+     - -d : Run container in background and print container ID
+     - -it : to make sure that it runs in interactive mode with the terminal attached.
      
  5. List containers 
     ```
@@ -50,7 +52,6 @@ These instructions will get you a copy of the project up and running on your loc
       ```
      
      - -it : to make sure that it runs in interactive mode with the terminal attached.
-
      - The program will ask you some question, and will predict if you are a Man or a Woman.     
      - The program will output tree.png file in the docker container.
  
