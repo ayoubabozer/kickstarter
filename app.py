@@ -43,7 +43,7 @@ for edge in edges:
         dest = graph.get_node(str(edges[edge][i]))[0]
         dest.set_fillcolor(colors[i])
 
-graph.write_png('tree.png')
+graph.write_png('tree/tree.png')
 
 print ("The Machine will predict if you are a Man or a Woman :)")
 

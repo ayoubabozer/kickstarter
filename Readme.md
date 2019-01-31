@@ -24,8 +24,12 @@ These instructions will get you a copy of the project up and running on your loc
      ```
      cd Python-Decision-Tree-Classification
      ```
- 
- 3. Build Docker
+ 3. Permission for writing tree algorithm visualisation.
+    ```
+        sudo chmod -R 775 tree
+    ```
+    
+ 4. Build Docker
  
     ```
      docker build -t <tag_name> .
@@ -33,7 +37,7 @@ These instructions will get you a copy of the project up and running on your loc
     
     don't forget the dot.
  
- 4. Run
+ 5. Run
  
      ```
         docker run <tag_name>
