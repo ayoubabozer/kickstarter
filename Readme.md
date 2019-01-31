@@ -44,6 +44,6 @@ These instructions will get you a copy of the project up and running on your loc
 ### Running and testing
 - The program will ask you some question, and will predict if you are a Man or a Woman.
 
-- The program will output the decision tree algorithm, in a file called `tree.png` in you directory.
+- The program will output the decision tree algorithm, in a file called `tree.png` in your directory.
 
 # ENJOY!.
