@@ -2,6 +2,12 @@
 # Use an official Python runtime as a parent image
 FROM python:3.6-slim
 
+RUN apt-get update \
+  && apt-get install -y --no-install-recommends graphviz \
+  && rm -rf /var/lib/apt/lists/* \
+  && pip install --no-cache-dir pyparsing pydot
+
+
 # Set the working directory to /app
 WORKDIR /app
 
