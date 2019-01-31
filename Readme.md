@@ -41,7 +41,12 @@ These instructions will get you a copy of the project up and running on your loc
      
  5. List containers 
     ```
-    docker ps
+    docker ps -a
+    ``` 
+    
+ 5. Start the container 
+    ```
+    docker start <container_ID>
     ``` 
   
  6. Run the app in the container
