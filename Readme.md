@@ -4,10 +4,9 @@ This is a project calculating logarithmic rate of return and standard deviation 
 - PG - Procter & Gamble
 - BEI.DE - Beiersdorf
 
-we are using three of the must-have python packages for Data Science and Finance:
+we are using two of the must-have python packages for Data Science and Finance:
 - NumPy : allowing us to work with multidimensional arrays, and a fast numeric array computations
 - Pandas : allowing us to organize data in a tabular form, and quickly loading remote data or a .csv file.
-- Matplotlib : a 2D plotting library specially designed for visualization of Numpy computations.
 
 
 with this project we reinforce the fact that stocks with higher expected return, OFTEN embed MORE risks. 

@@ -1,4 +1,2 @@
 numpy
 pandas_datareader
-matplotlib
-

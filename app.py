@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 from pandas_datareader import data as dt
-import matplotlib.pyplot as plt
 
 # Calculating companies security risk
 
@@ -36,9 +35,3 @@ print('Annual Risk - standard deviation')
 # because standard deviation is square root of the variance
 print(sec_returns[tickers].std() * 250 ** 0.5)
 
-plt.plot(sec_returns)
-plt.title('Security rate of return')
-plt.ylabel('rate of return')
-plt.xlabel('Date')
-plt.legend(tickers)
-plt.show()
