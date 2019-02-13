@@ -1,9 +1,17 @@
 
-# Decision Tree Classification in Python
-This is a project is using decision tree algorithm, which is one of the many Machine Learning algorithms.
+# Calculating companies stocks risk
+This is a project calculating logarithmic rate of return and standard deviation (risk)  of two companies,
+- PG - Procter & Gamble
+- BEI.DE - Beiersdorf
 
-Classification: given input data, it is class A or class B?
-In this project we will visualize a decision tree using the Python module pydotplus and the module graphviz.
+we are using three of the must-have python packages for Data Science and Finance:
+- NumPy : allowing us to work with multidimensional arrays, and a fast numeric array computations
+- Pandas : allowing us to organize data in a tabular form, and quickly loading remote data or a .csv file.
+- Matplotlib : a 2D plotting library specially designed for visualization of Numpy computations.
+
+
+with this project we reinforce the fact that stocks with higher expected return, OFTEN embed MORE risks. 
+
 
 ## Getting Started
 
@@ -17,12 +25,12 @@ These instructions will get you a copy of the project up and running on your loc
  1. Copy the project to your machine
  
      ```
-     git clone https://github.com/ayoubabozer/Python-Decision-Tree-Classification.git
+     git clone https://github.com/ayoubabozer/calculating-stocks-risk.git
      ```
  
  2. Get into the Dir 
      ```
-     cd Python-Decision-Tree-Classification
+     cd calculating-stocks-risk
      ```
     
  3. Build Docker
@@ -33,34 +41,12 @@ These instructions will get you a copy of the project up and running on your loc
     
      - don't forget the dot.
  
- 4. Run and create container from the docker image
+ 4. Run docker
  
      ```
-        docker run -dit <tag_name>
+        docker run -it <tag_name>
      ```
-     - -d : Run container in background and print container ID
      - -it : to make sure that it runs in interactive mode with the terminal attached.
-     
- 5. List containers 
-    ```
-    docker ps -a
-    ```   
- 6. Run the app in the container
- 
-      ```
-      docker exec -it <container_ID> python app.py
-      ```
-     
-     - -it : to make sure that it runs in interactive mode with the terminal attached.
-     - The program will ask you some question, and will predict if you are a Man or a Woman.     
-     - The program will output tree.png file in the docker container.
- 
- 7. Copy tree algorithm image from container to your host
-    
-    ```
-    docker cp <CONTAINER_ID>:/app/tree.png .
-    ```
-    
-    - don't forget the dot again.
+
 
 # ENJOY!.

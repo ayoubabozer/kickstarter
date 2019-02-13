@@ -1,61 +1,44 @@
-from sklearn import tree
+import numpy as np
 import pandas as pd
+from pandas_datareader import data as dt
+import matplotlib.pyplot as plt
 
-# DataSet from dataset.csv
+# Calculating companies security risk
 
-data_feature_names = [ 'Height', 'Weight', 'Hair Length']
+# PG - Procter & Gamble
+# BEI.DE - Beiersdorf
 
-dataset = pd.read_csv("dataset.csv")
+tickers = ['PG', 'BEI.DE']
 
-# X is the dataset without the Class column
-X = dataset.drop('Class', axis=1)
+sec_data = pd.DataFrame()
 
-# Y is the Class column
-Y = dataset['Class']
+# import data from yahoo finance
 
-# classifier - DecisionTreeClassifier
-clf = tree.DecisionTreeClassifier();
+for t in tickers:
+    sec_data[t] = dt.DataReader(t, data_source='yahoo', start='2007-01-01', end='2018-01-01')['Adj Close']
 
-# learn from data
-clf = clf.fit(X,Y);
+# calculating the logarithmic rate of return
 
-import pydotplus
-import collections
+sec_returns = np.log(sec_data / sec_data.shift(1))
 
-dot_data = tree.export_graphviz(clf,
-                                feature_names=data_feature_names,
-                                out_file=None,
-                                filled=True,
-                                rounded=True)
+# Plotting average rate of return
 
-graph = pydotplus.graph_from_dot_data(dot_data)
+print('Annual average rate of return')
 
-colors = ('turquoise', 'orange')
+# mean() - Returns the daily average rate of return
+# assuming 250 is the trading days in a year, we can get the annual average rate of return
+print(sec_returns[tickers].mean() * 250)
 
-edges = collections.defaultdict(list)
+print('Annual Risk - standard deviation')
 
-for edge in graph.get_edge_list():
-    edges[edge.get_source()].append(int(edge.get_destination()))
+# std() - returns standard deviation
+# need to multiply with square root of 250
+# because standard deviation is square root of the variance
+print(sec_returns[tickers].std() * 250 ** 0.5)
 
-for edge in edges:
-    edges[edge].sort()
-    for i in range(2):
-        dest = graph.get_node(str(edges[edge][i]))[0]
-        dest.set_fillcolor(colors[i])
-
-graph.write_png('tree.png')
-
-print ("The Machine will predict if you are a Man or a Woman :)")
-
-height = input("What is your Height? ")
-weight = input("What is your Weight? ")
-hair_length = input("What is your Hair Length [0-100]? ")
-
-
-#test_data
-test_data =[ [height, weight, hair_length] ];
-
-#prediction
-prediction_tree = clf.predict(test_data);
-
-print("Prediction of DecisionTreeClassifier:",prediction_tree);
+plt.plot(sec_returns)
+plt.title('Security rate of return')
+plt.ylabel('rate of return')
+plt.xlabel('Date')
+plt.legend(tickers)
+plt.show()
